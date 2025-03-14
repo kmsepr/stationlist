@@ -1,2 +1,33 @@
 Muthnabi radio,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/muthnabi_radio
-Media one,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/media_one
+shajahan_rahmani,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/shajahan_rahmani
+qsc_mukkam,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/qsc_mukkam
+valiyudheen_faizy,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/valiyudheen_faizy
+skicr_tv,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/skicr_tv
+yaqeen_institute,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/yaqeen_institute
+eft_guru,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/eft_guru
+unacademy_ias,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/unacademy_ias
+aljazeera_arabic,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/aljazeera_arabic
+aljazeera_english,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/aljazeera_english
+entri_degree,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/entri_degree
+entri_ias,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/entri_ias
+studyiq_english,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/studyiq_english
+NOOR AL IMAN,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/noor_al_eman
+MANJERI FM,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/manjeri_fm
+RADIO KERALAM,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/radio_keralam
+SIRAT AL MUSTAQIM,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/sirat_al_mustaqim
+AIR KOZHIKODE,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/air_calicut
+SAM YEMEN,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/sam_yemen
+AFAQ,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/afaq
+ALFASI RADIO,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/alfasi_radio
+TAFSIR QURAN,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/tafsir_quran
+URDU ISLAMIC LECTURES,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/urdu_islamic_lecture
+HOB AL NABI ,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/hob_nabi
+VICTERS,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/victers_tv
+SAFARI,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/safari_tv
+ASIANET NEWS,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/asianet_news
+HAJJ CHANNEL,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/hajj_channel
+ALLAHU AKBAR RADIO,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/allahu_akbar_radio
+SANAA RADIO,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/sanaa_radio
+QURAN RADIO NABLUS,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/quran_radio_nablus
+QURAN RADIO CAIRO,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/quran_radio_cairo
+NOOR ALA NUR,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/nur_ala_nur
