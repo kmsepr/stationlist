@@ -11,6 +11,8 @@ aljazeera_english,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/aljazeera_engl
 entri_degree,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/entri_degree
 entri_ias,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/entri_ias
 studyiq_english,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/studyiq_english
+studyiq_hindi,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/studyiq_hindi
+media_one,http://empty-gayal-pscj-9fd983f4.koyeb.app/play/media_one
 NOOR AL IMAN,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/noor_al_eman
 MANJERI FM,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/manjeri_fm
 RADIO KERALAM,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/radio_keralam
@@ -31,3 +33,8 @@ SANAA RADIO,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/sanaa_radio
 QURAN RADIO NABLUS,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/quran_radio_nablus
 QURAN RADIO CAIRO,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/quran_radio_cairo
 NOOR ALA NUR,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/nur_ala_nur
+YEMEN TALK,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/yemen_talk
+OMAR KAFI RADIO,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/omar_abdul_kafi_radio
+RIVER NILE RADIO,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/river_nile_radio
+MOTIVATIONAL SERIES,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/motivational_series
+RUQYA RADIO,http://zippy-gretta-pscjunction-b779efe8.koyeb.app/ruqya_radio
