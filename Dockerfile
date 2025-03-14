@@ -10,8 +10,10 @@ WORKDIR /app
 # Copy the application files
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-RUN mkdir radiobee
-COPY radiobee.txt radiobee
+
+# Create the stations directory
+RUN mkdir stations
+COPY stations.txt stations
 
 COPY . .
 
@@ -20,4 +22,3 @@ EXPOSE 8000
 
 # Run the application
 CMD ["python", "stream.py"]
-
