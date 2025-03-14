@@ -4,10 +4,10 @@ from flask import Flask, Response, send_from_directory
 
 app = Flask(__name__)
 
-# 📡 List of radio stations
+# 🎡 List of radio stations
 RADIO_STATIONS = {
-      "rurock": "https://stream02.pcradio.ru/Rock-hi",
-     "rubat_ataq": "http://stream.zeno.fm/5tpfc8d7xqruv",
+    "rurock": "https://stream02.pcradio.ru/Rock-hi",
+    "rubat_ataq": "http://stream.zeno.fm/5tpfc8d7xqruv",
     "shahul_radio": "https://stream-150.zeno.fm/cynbm5ngx38uv?zs=Ktca5StNRWm-sdIR7GloVg",
     "eram_fm": "http://icecast2.edisimo.com:8000/eramfm.mp3",
     "abc_islam": "http://s10.voscast.com:9276/stream",
@@ -52,9 +52,7 @@ RADIO_STATIONS = {
     "yemen_talk": "http://stream.zeno.fm/7qv7c8eq7hhvv",
     "safari_tv": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/chunks.m3u8",
     "victers_tv": "https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/victers/tv1/chunks.m3u8",   
- 
 }
-
 
 # 🔄 Streaming function with error handling
 def generate_stream(url):
@@ -85,10 +83,9 @@ def generate_stream(url):
         time.sleep(5)  # Wait before restarting
 
 # 🌍 API to stream selected station
-@app.route('/radiobee/<path:path>')
+@app.route('/stationlist/<path:path>')
 def send_report(path):
-    # Using request args for path will expose you to directory traversal attacks
-    return send_from_directory('radiobee', path)
+    return send_from_directory('stationlist', path)
 
 @app.route("/<station_name>")
 def stream(station_name):
