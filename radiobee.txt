@@ -1,1 +1,18 @@
- RUROCK (RU) (40kbps)||http://abstract-allie-nallion-da5d48f2.koyeb.app/rurock||40||0||0<br>
+Rubat Ataq,http://stream.zeno.fm/5tpfc8d7xqruv
+Shahul Radio,http://stream-150.zeno.fm/cynbm5ngx38uv
+Eram FM,http://icecast2.edisimo.com:8000/eramfm.mp3
+ABC Islam,http://s10.voscast.com:9276/stream
+Al Sumood FM,http://us3.internet-radio.com/proxy/alsumoodfm?mp=/stream
+Nur Ala Nur,http://104.7.66.64:8011/
+Ruqya Radio,http://104.7.66.64:8004
+Manjeri FM,https://air.pc.cdn.bitgravity.com/air/live/pbaudio101/chunklist.m3u8
+Seiyun Radio,http://s2.radio.co/s26c62011e/listen
+Motivational Series,http://104.7.66.64:8010
+Deenagers Radio,http://104.7.66.64:8003/
+Real FM,http://air.pc.cdn.bitgravity.com/air/live/pbaudio083/playlist.m3u8
+Noor Al Eman,http://edge.mixlr.com/channel/boaht
+Radio Keralam,http://ice31.securenetsystems.net/RADIOKERAL
+Al Nour,http://audiostreaming.itworkscdn.com:9066/
+Muthnabi Radio,http://cast4.my-control-panel.com/proxy/muthnabi/stream
+FM Gold,https://airhlspush.pc.cdn.bitgravity.com/httppush/hispbaudio005/hispbaudio00564kbps.m3u8
+Malay
