@@ -11,9 +11,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Create the stations directory
-RUN mkdir stations
-COPY stations.txt stations
+# Create the stationlist directory
+RUN mkdir stationlist
+COPY stationlist.txt stationlist
 
 COPY . .
 
