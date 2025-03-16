@@ -8,12 +8,13 @@ RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 
 # Copy the application files
-COPY requirements.txt .
+COPY requirements.txt . 
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Create the stationlist directory
 RUN mkdir stationlist
-COPY stationlist.txt stationlist
+COPY stationlist.txt stationlist/
+COPY podcasts.opml stationlist/
 
 COPY . .
 
