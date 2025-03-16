@@ -1,20 +1,18 @@
 # Use an official lightweight Python image
 FROM python:3.9-slim
 
-# Install dependencies
-RUN apt-get update && apt-get install -y ffmpeg && rm -rf /var/lib/apt/lists/*
-
 # Set the working directory
 WORKDIR /app
 
-# Copy the application files
+# Install dependencies (only if needed)
 COPY requirements.txt . 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy OPML file directly to /app/
-COPY podcasts.opml .
+# Ensure stationlist directory exists and copy files
+RUN mkdir -p stationlist
+COPY stationlist/ stationlist/
 
-# Copy all other necessary files
+# Copy the application files
 COPY . .
 
 # Expose port 8000
