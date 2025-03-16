@@ -22,7 +22,8 @@ def generate_stream(url):
         
         process = subprocess.Popen(
             [
-                "ffmpeg", "-reconnect", "1", "-reconnect_streamed", "1", "-reconnect_delay_max", "10", "-i", url, "-vn", "-ac", "1", "-acodec", "libmp3lame", "-b:a", "40k", "-ar", "32000", "-buffer_size", "2048k", "-f", "mp3", "-"
+                "ffmpeg", "-reconnect", "1", "-reconnect_streamed", "1", "-reconnect_delay_max", "10", "-i", url, 
+                "-vn", "-ac", "1", "-acodec", "libmp3lame", "-b:a", "40k", "-ar", "32000", "-buffer_size", "2048k", "-f", "mp3", "-"
             ],
             stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, bufsize=102400
         )
@@ -44,7 +45,7 @@ def generate_stream(url):
 # 🌍 API to serve OPML file
 @app.route('/podcasts.opml')
 def serve_opml():
-    return send_from_directory('stationlist', 'podcasts.opml', mimetype='text/xml')
+    return send_from_directory('.', 'podcasts.opml', mimetype='text/xml')  # Serve from root directory
 
 # 🌍 API to stream selected station
 @app.route("/<station_name>")
