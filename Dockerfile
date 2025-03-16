@@ -11,11 +11,10 @@ WORKDIR /app
 COPY requirements.txt . 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Create the stationlist directory
-RUN mkdir stationlist
-COPY stationlist.txt stationlist/
-COPY podcasts.opml stationlist/
+# Copy OPML file directly to /app/
+COPY podcasts.opml .
 
+# Copy all other necessary files
 COPY . .
 
 # Expose port 8000
