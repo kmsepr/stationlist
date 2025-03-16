@@ -1,15 +1,25 @@
 # Use an official lightweight Python image
 FROM python:3.9-slim
 
-# Set the working directory
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copy and install dependencies (only if requirements.txt exists)
-COPY requirements.txt .  
-RUN pip install --no-cache-dir -r requirements.txt || echo "No requirements file found"
+# Copy requirements file first (to leverage Docker cache)
+COPY requirements.txt .
 
-# Copy the remaining application files
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy all application files
 COPY . .
 
-# Ensure the stationlist directory exists
-RUN mkdir -p /
+# Expose the Flask port
+EXPOSE 8000
+
+# Set environment variables for Flask
+ENV FLASK_APP=stream.py
+ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_RUN_PORT=8000
+
+# Run the Flask application
+CMD ["flask", "run"]
