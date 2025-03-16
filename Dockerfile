@@ -4,15 +4,12 @@ FROM python:3.9-slim
 # Set the working directory
 WORKDIR /app
 
-# Install dependencies (if a requirements file exists)
-COPY requirements.txt . 
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy and install dependencies (only if requirements.txt exists)
+COPY requirements.txt .  
+RUN pip install --no-cache-dir -r requirements.txt || echo "No requirements file found"
 
-# Copy all files from the root of the repo
+# Copy the remaining application files
 COPY . .
 
-# Expose port 8000
-EXPOSE 8000
-
-# Run the application
-CMD ["python", "stream.py"]
+# Ensure the stationlist directory exists
+RUN mkdir -p /
